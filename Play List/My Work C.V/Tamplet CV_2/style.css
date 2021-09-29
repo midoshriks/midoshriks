@@ -1,0 +1,231 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background-color: #F8F9FA;
+    font-family: Arial, Tahoma;
+}
+
+/* Start Navbar */
+
+.navbar {
+    width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: row;
+    background-color: #2ECA7F;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+.navbar .person {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 70%;
+    margin-left: 25px;
+}
+
+.navbar .person .image {
+    width: 8%;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.navbar .person .image img {
+    width: 100%;
+    border-radius: 50%;
+    background-color: #F5F5F5;
+}
+
+.navbar .person .head-navbar {
+    color: #FFF;
+    margin: 10px 0;
+}
+
+.navbar .person .head-navbar h2 {
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+.navbar .social {
+    color: #FFF;
+    margin-top: 10px;
+}
+
+.navbar .social h3 {
+    font-size: 16px;
+}
+
+.navbar .social i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin: 10px 8px 0 0;
+    border-radius: 50%;
+    border: 1px solid transparent;
+    color: #2ECA7F;
+    background-color: #FFF;
+}
+
+.navbar .social i:hover {
+    border: 1px solid #FFF;
+    color: #FFF;
+    background-color: #2eca7f;
+}
+
+/* End Navbar */
+
+/* Start Links */
+
+.content {
+    width: 900px;
+    z-index: -1;
+    margin: auto;
+    display: flex;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+    background-color: #FFF;
+    box-shadow: 0px 1px 10px 1px #efefef;
+}
+
+.content .link {
+    margin: 0;
+    padding: 0;
+}
+
+.content .link p {
+    padding: 46px 0 0 70px;
+}
+
+.content .link .home,
+.content .link .about,
+.content .link .resume,
+.content .link .services,
+.content .link .portfolio,
+.content .link .blog,
+.content .link .contact {
+    position: relative;
+}
+
+.content .link .home i {
+    position: absolute;
+    top: 45px;
+    left: 35px;
+    color: #2ECA7F;
+}
+
+.content .link .home p {
+    color: #2ECA7F;
+}
+
+.content .link .home p:before {
+    position: absolute;
+    content: '';
+    width: 20%;
+    left: 0;
+    top: 53px;
+    border-bottom: 2px solid #2ECA7F;
+}
+
+.content .link .about i,
+.content .link .resume i,
+.content .link .services i,
+.content .link .portfolio i,
+.content .link .blog i,
+.content .link .contact i {
+    position: absolute;
+    top: 45px;
+    left: 35px;
+}
+
+.content .image {
+    margin-top: 30px;
+    margin-left: 85px;
+    flex-basis: 100%;
+}
+
+.content .image img {
+    width: 100%;
+}
+
+.content .info {
+    margin-right: 43px;
+    margin-top: 100px;
+    margin-left: 45px;
+    position: relative;
+    flex-basis: 88%;
+}
+
+.content .info h2 {
+    margin-bottom: 30px;
+}
+
+.content .info h2:before {
+    position: absolute;
+    content: "";
+    width: 15%;
+    height: 3%;
+    left: 0px;
+    top: 33px;
+    border-radius: 10px;
+    background-color: #2eca7f;
+}
+
+.content .info h2:after {
+    position: absolute;
+    content: "";
+    width: 22%;
+    left: 38px;
+    top: 38px;
+    border-bottom: 1px solid #2eca7f;
+}
+
+.content .info p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #808387;
+}
+
+.content .info span {
+    display: block;
+    margin-bottom: 16px;
+    color: #808387;
+    font-size: 14px;
+}
+
+.content .info span strong {
+    color: #4C5254;
+}
+
+.content .info i {
+    position: absolute;
+    bottom: 24px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #2eca7f;
+    background-color: #FFF;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.content .info button {
+    border: 0;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #FFF;
+    background-color: #2eca7f;
+    padding: 12px 15px 12px 50px;
+}
+
+/* End Links */
