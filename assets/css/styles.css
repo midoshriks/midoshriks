@@ -299,13 +299,25 @@ img{
   width: 95%;
 }
 .skills__css{
-  width: 85%;
+  width: 80%;
 }
 .skills__js{
   width: 65%;
 }
-.skills__ux{
+.skills__jq{
+  width: 45%;
+}
+.skills__bootstrap{
   width: 85%;
+}
+.skills__php{
+  width: 65%;
+}
+.skills__laravel{
+  width: 75%;
+}
+.skills__flutter{
+  width: 25%;
 }
 .skills__img{
   border-radius: .7rem;
