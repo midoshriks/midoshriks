@@ -3,3 +3,5 @@ update in git
 2 => git commit -m "first 2,3,4,commit"
 3 => git branch -M main
 4 => git push -u origin main
+or => git push -u origin --force
+
