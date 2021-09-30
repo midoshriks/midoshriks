@@ -313,6 +313,9 @@ img{
 .skills__php{
   width: 65%;
 }
+.skills__msql{
+  width: 70%;
+}
 .skills__laravel{
   width: 75%;
 }
